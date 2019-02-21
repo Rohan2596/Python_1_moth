@@ -107,7 +107,7 @@ def couponnumber(n1):
 def two2darray(m,n):
 	Matrix1=np.zeros((m,n))
 	print(Matrix1)
-	Matrix=[[0 for x in range(m)] for y in range(n)]
+	Matrix=[["A" for x in range(m)] for y in range(n)]
 	print(Matrix)
 
 def threesum0(n1):
